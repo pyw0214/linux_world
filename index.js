@@ -1,4 +1,9 @@
-const title = document.querySelector("#title");
-title.innerHTML = "Hi! From JS";
-title.style.color = "red";
-document.title = "I own you now"
+const age = prompt ("How old are you?");
+
+if (age >= 18 && age <= 21) {
+    console.log('you can drink but you should not');
+}else if(age > 21){
+    console.log ("go ahead"); 
+} else {
+    console.log("too young!")
+}
