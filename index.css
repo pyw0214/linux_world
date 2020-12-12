@@ -8,7 +8,13 @@ h1 {
 
 .form,
 .greetings {
+  color: white;
   display: none;
+}
+
+.js-toDoList,
+.js-weather {
+  color: white;
 }
 
 .showing {
